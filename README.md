@@ -1,4 +1,5 @@
 # SpaceFX
+
 A simple tiny space game written in JavaFX.
 
 Original source and more information at: https://github.com/HanSolo/SpaceFX
@@ -9,19 +10,26 @@ This fork uses [Bach](https://github.com/sormuras/bach) as its build tool.
 
 ### Build
 
-- Install JDK 16 or later
-- `java --module-path .bach/bin --module com.github.sormuras.bach build`
+- Install JDK 17 or later
+- On Linux/Mac call
+  ```shell script
+  .bach/bin/bach build
+  ```
+- On Windows call
+  ```shell script
+  .bach\bin\bach build
+  ```
 
 ### Run via Custom Runtime Image
 
-- Linux and Mac OS
+- Linux/Mac
 
 ```shell script
-.bach/workspace/images/bin/spacefx
+.bach/out/main/image/bin/spacefx
 ```
 
 - Windows
 
 ```shell script
-.bach\workspace\image\bin\spacefx[.bat]
+.bach\out\main\image\bin\spacefx
 ```
