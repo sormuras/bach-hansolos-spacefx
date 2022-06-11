@@ -29,6 +29,7 @@ jobs:
           website: jdk.java.net
           release: ${{ matrix.java }}
       - name: 'Build with Bach'
+        shell: bash
         run: .bach/bin/bach build
       - name: 'Upload SpaceFX Game Image'
         uses: actions/upload-artifact@v2
