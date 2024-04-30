@@ -157,6 +157,6 @@ public class SpaceFX extends Application {
     }
 
     public static void main(String[] args) {
-        launch(args);
+        launch(SpaceFX.class, args);
     }
 }

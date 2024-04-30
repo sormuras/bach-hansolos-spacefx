@@ -11,7 +11,7 @@
 /logs
 /tmp
 *.class
-spacefx.iml
+*.iml
 
 /.vscode
 /.classpath
